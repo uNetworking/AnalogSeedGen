@@ -20,7 +20,7 @@ Page%.pdf: Page%.svg
 
 # Rule to combine PDFs
 output.pdf: $(PDF_FILES)
-	pdfunite $(PDF_FILES) output.pdf
+	pdfunite frontpage.pdf $(PDF_FILES) output.pdf
 
 # Clean up generated files
 clean:
